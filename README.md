@@ -22,6 +22,8 @@ Ordinary diffusion is Markovian: the rate of change at time $t$ depends only on 
 python training/train_baseline.py
 # or
 python training/train.py
+# or 
+python main.py
 ```
 
 Custom runs:
@@ -43,12 +45,6 @@ results, pinn, kernel_net = run_experiment(
 print(results["mse"], results["relative_l2"], results["kernel_rel_l2"])
 ```
 
-
-```bash
-python training/train_baseline.py
-
-python training/train.py
-```
 
 ## details  of files
 
