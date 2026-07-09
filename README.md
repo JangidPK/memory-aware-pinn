@@ -69,7 +69,7 @@ python training/train.py
 6. **`training/trainer.py`** runs training and produces plots.
 
 # Some results
-> Baseline (Markovian) case: Comparison between the ground truth and the model predictions. 
+> Fixed kernel case: Comparison between the ground truth and the model predictions. 
 <p align="center">
   <img src="results/not_learning_kernel_zero_noise_heatmaps.png" width="800">
 </p>
