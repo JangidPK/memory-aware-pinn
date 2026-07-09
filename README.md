@@ -69,12 +69,18 @@ python training/train.py
 6. **`training/trainer.py`** runs training and produces plots.
 
 # Some results
-> For the baseline (Markovin) case comparison between true and predicted data. 
+> Baseline (Markovian) case: Comparison between the ground truth and the model predictions. 
 <p align="center">
-  <img src="results/baseline_heatmaps.png" width="700">
+  <img src="results/not_learning_kernel_zero_noise_heatmaps.png" width="800">
 </p>
 
-
+> Kernel learning case: The model learns the kernel simultaneously while fitting the data. The predicted results closely match the ground truth, and the learned kernel accurately recovers the target kernel, as shown below.
+<p align="center">
+  <img src="results/learning_learning_kernel_zero_noise_heatmaps.png" width="800">
+</p>
+<p align="center">
+  <img src="results/learning_learning_kernel_zero_noise_kernel.png" width="400">
+</p>
 
 ## Extending this project
 
